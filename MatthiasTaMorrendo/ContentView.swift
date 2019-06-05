@@ -32,7 +32,10 @@ struct GraphView : View {
     var body: some View {
             HStack {
                 ForEach(datapoints.identified(by: \.self)) { datapoint in
-                    Bar(value: datapoint.value)
+                    VStack {
+                        Bar(value: datapoint.value)
+                        Text(datapoint.value)
+                    }
                 }
             }
             .padding()
