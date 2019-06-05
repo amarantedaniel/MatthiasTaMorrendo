@@ -15,6 +15,8 @@
 		2E746D7722A7245700688E01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E746D7522A7245700688E01 /* LaunchScreen.storyboard */; };
 		2E746D8222A7245700688E01 /* MatthiasTaMorrendoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E746D8122A7245700688E01 /* MatthiasTaMorrendoTests.swift */; };
 		2E746D8D22A7245700688E01 /* MatthiasTaMorrendoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E746D8C22A7245700688E01 /* MatthiasTaMorrendoUITests.swift */; };
+		2E746D9B22A73F0600688E01 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E746D9A22A73F0600688E01 /* StatusView.swift */; };
+		2E746D9D22A73F2B00688E01 /* Datapoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E746D9C22A73F2B00688E01 /* Datapoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		2E746D8822A7245700688E01 /* MatthiasTaMorrendoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatthiasTaMorrendoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E746D8C22A7245700688E01 /* MatthiasTaMorrendoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatthiasTaMorrendoUITests.swift; sourceTree = "<group>"; };
 		2E746D8E22A7245700688E01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E746D9A22A73F0600688E01 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+		2E746D9C22A73F2B00688E01 /* Datapoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datapoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				2E746D7522A7245700688E01 /* LaunchScreen.storyboard */,
 				2E746D7822A7245700688E01 /* Info.plist */,
 				2E746D7222A7245700688E01 /* Preview Content */,
+				2E746D9A22A73F0600688E01 /* StatusView.swift */,
+				2E746D9C22A73F2B00688E01 /* Datapoint.swift */,
 			);
 			path = MatthiasTaMorrendo;
 			sourceTree = "<group>";
@@ -269,6 +275,8 @@
 			files = (
 				2E746D6B22A7245700688E01 /* AppDelegate.swift in Sources */,
 				2E746D6D22A7245700688E01 /* SceneDelegate.swift in Sources */,
+				2E746D9D22A73F2B00688E01 /* Datapoint.swift in Sources */,
+				2E746D9B22A73F0600688E01 /* StatusView.swift in Sources */,
 				2E746D6F22A7245700688E01 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
