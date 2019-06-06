@@ -34,7 +34,7 @@ struct GraphView : View {
                 ForEach(datapoints.identified(by: \.self)) { datapoint in
                     VStack {
                         Bar(value: datapoint.value)
-                        Text(datapoint.value)
+                        Text("\(datapoint.value)")
                     }
                 }
             }
